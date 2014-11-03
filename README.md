@@ -41,23 +41,6 @@ Test it:
 Please replace container ID in nc command line with your ;)
 
 
-Advanced usage:
-
-You can change:
-
-* the max connection to memcached with MAX_CONN variable. Default value is 1024.
-* the max memory size with MAX_MEM variable in Mo. Default value is 64.
-* and the bind ip with BIND variable. Default value is 0.0.0.0
-
-For example :
-
-	$ docker run -d -P -e MAX_MEM=1024,MAX_CONN=10000 sylvainlasnier/memcached
-
-launch memcached docker with 1Go RAM and usable by 10000 simultaneous clients
-
-Last but not least, you can build your own awesome VM based on this image. 
-
-
 I use these docker images in production and I assume update.  
 Have fun and try my other [docker images](https://hub.docker.com/u/sylvainlasnier/) ^^
 
